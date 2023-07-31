@@ -1,0 +1,26 @@
+@font-face{
+	font-family: roboto;
+	src: url("/fonts/Roboto/Roboto-Light.ttf");
+}
+:root{
+	--padding: 10px;
+	--gap: 10px;
+}
+body{
+	font-family: roboto;
+}
+/* - - - - - H E A D E R - - - - - */
+header{
+	display: flex;
+	gap: var(--gap);
+	padding: var(--padding);
+	height: 70px;
+	align-items: center;
+}
+header img{
+	height: 100%;
+}
+/* - - END - H E A D E R - END - - */
+
+/* - - - - - M A I N - - - - - */
+/* - - END - M A I N - END - - */
