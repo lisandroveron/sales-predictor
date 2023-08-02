@@ -3,18 +3,39 @@
 	src: url("/fonts/Roboto/Roboto-Light.ttf");
 }
 :root{
+	--main_color: #ff7f2a;
+
 	--padding: 10px;
 	--gap: 10px;
+	--margin: 10px;
 }
 body{
+	padding: var(--padding);
+}
+#root{
 	font-family: roboto;
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap);
+}
+h1, h2, h3, h4, h5, h6{
+	margin: var(--margin) 0;
+}
+table, input[type="button"]{
+	margin: var(--margin) 0;
+}
+label[for="file"], button, input[type="button"]{
+	border: 1px solid transparent;
+	border-radius: 3px;
+	background-color: var(--main_color);
+	color: white;
+	padding: var(--padding);
 }
 /* - - - - - H E A D E R - - - - - */
 header{
 	display: flex;
 	gap: var(--gap);
-	padding: var(--padding);
-	height: 70px;
+	height: 60px;
 	align-items: center;
 }
 header img{
@@ -23,4 +44,23 @@ header img{
 /* - - END - H E A D E R - END - - */
 
 /* - - - - - M A I N - - - - - */
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-self: center;
+	max-width: 600px;
+}
+main form{
+	display: flex;
+/*	flex-direction: column;*/
+	gap: var(--gap);
+	align-items: center;
+}
+main form input[type="file"]{
+	display: none;
+}
+main table{
+	border-spacing: 20px 5px;
+}
 /* - - END - M A I N - END - - */
