@@ -80,7 +80,7 @@ const Instructions = <>
 	<p>To predict future sales, you must upload a .csv file with 2 columns: &quot;dates&quot; and &quot;sales&quot;.</p>
 	<p>In the &quot;dates&quot; column try to use known date formats, such as: MM-DD-YYYY or DD/MM/YY, among others.</p>
 	<p>The &quot;sales&quot; column should have English notation, without using a comma, just using the dot (.) to separate the decimal part if necessary.</p>
-	<p>Also add new rows with the dates you want to predict. This is an example of the formats:</p>
+	<p>Also add new rows with the dates you want to predict. Here is an example of the formats:</p>
 	<table>
 		<thead>
 			<tr>
@@ -99,11 +99,11 @@ const Instructions = <>
 			</tr>
 			<tr>
 				<td>2017-03-01</td>
-				<td>27780.01</td>
+				<td>27780.012</td>
 			</tr>
 			<tr>
 				<td>2017-04-01</td>
-				<td>29134.27</td>
+				<td>29134.271</td>
 			</tr>
 			<tr>
 				<td>2023-03-01</td>
