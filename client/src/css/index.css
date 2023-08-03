@@ -43,8 +43,11 @@ header{
 	height: 60px;
 	align-items: center;
 }
-header img{
+header img, header a{
 	height: 100%;
+}
+header h1{
+	flex-grow: 1;
 }
 /* - - END - H E A D E R - END - - */
 
