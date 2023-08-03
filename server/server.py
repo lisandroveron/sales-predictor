@@ -1,10 +1,14 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-app = Flask("server")
+app = Flask("server", static_folder="dist/assets/", template_folder="dist")
 CORS(app)
+
+@app.route("/")
+def index():
+    return render_template("index.html")
 
 @app.post("/server/csv-file")
 def csv_file():

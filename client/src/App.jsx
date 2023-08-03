@@ -36,7 +36,7 @@ export function App(){
 
 	return (<>
 		<header>
-			<img src="assets/icons/orange.svg" alt="" />
+			<img src="assets/favicon.svg" alt="" />
 			<h1>Sales predictor</h1>
 		</header>
 		<main>
