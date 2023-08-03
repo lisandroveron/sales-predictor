@@ -21,6 +21,11 @@ body{
 h1, h2, h3, h4, h5, h6{
 	margin: var(--margin) 0;
 }
+a{
+	color: var(--main_color);
+	font-weight: bold;
+	text-decoration: none;
+}
 table, input[type="button"]{
 	margin: var(--margin) 0;
 }

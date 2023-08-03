@@ -122,5 +122,5 @@ const Instructions = <>
 		</tbody>
 	</table>
 	<p>Note that there are dates that do not have the sales data, those are the dates that will be sought to predict.</p>
-	<p>You can copy the table, paste it into your Excel application, and save it in .csv format to use it here.</p>
+	<p>You can copy the table, paste it into your Excel application, and save it in .csv format to use it here. Or alternatively, <a href="assets/example_file.csv">download this example.</a></p>
 </>;
